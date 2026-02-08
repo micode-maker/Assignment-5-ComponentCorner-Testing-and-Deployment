@@ -1,0 +1,116 @@
+/* Used AI to help me with this CSS file for styling */
+
+.footer {
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  color: #ecf0f1;
+  padding: 40px 20px;
+  border-top: 4px solid #667eea;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  margin-bottom: 16px;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-left {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-right {
+  flex: 1;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+  color: #667eea;
+}
+
+.footer-email {
+  font-size: 14px;
+  line-height: 1.8;
+  margin: 0 0 10px 0;
+  color: #bdc3c7;
+}
+
+.footer-phonenumber {
+  font-size: 14px;
+  line-height: 1.8;
+  margin: 0 0 10px 0;
+  color: #bdc3c7;
+}
+
+.footer-address {
+  font-size: 14px;
+  line-height: 1.8;
+  margin: 0 0 10px 0;
+  color: #bdc3c7;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+.footer-link {
+  color: #bdc3c7;
+  text-decoration: none;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  padding: 4px 0;
+}
+
+.footer-link:hover {
+  color: #667eea;
+  padding-left: 8px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 30px 15px;
+    margin-top: 40px;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .footer-title {
+    font-size: 20px;
+  }
+
+  .footer-heading {
+    font-size: 14px;
+  }
+
+  .footer-text {
+    font-size: 13px;
+  }
+}
