@@ -18,7 +18,6 @@ describe('HomePage', () => {
       </BrowserRouter>
     )
 
-    // Hero text
     expect(
       screen.getByText('Welcome to ComponentCorner')
     ).toBeInTheDocument()
@@ -31,7 +30,6 @@ describe('HomePage', () => {
       screen.getByText('Shop Now!')
     ).toBeInTheDocument()
 
-    // Benefits section
     expect(
       screen.getByText('Why Shop with Us?')
     ).toBeInTheDocument()

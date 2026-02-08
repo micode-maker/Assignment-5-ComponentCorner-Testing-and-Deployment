@@ -1,4 +1,3 @@
-// src/components/__tests__/CartItem.test.jsx
 import { render, screen, fireEvent } from "@testing-library/react";
 import CartItem from "../CartItem";
 
